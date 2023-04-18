@@ -8,10 +8,18 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: Container(
-              decoration: BoxDecoration(color: Colors.orange),
-              child: Text("Hellloooooo"))),
-    );
+        body: Center(
+      child: Row(
+        children: [
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+          Text("Heyyyyyyyyyyyyyyyyyyyyyyy    "),
+        ],
+      ),
+    ));
   }
 }
