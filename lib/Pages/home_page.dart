@@ -14,7 +14,7 @@ class MyHome extends StatelessWidget {
       drawer: Drawer(backgroundColor: Colors.deepPurple),
       body: Center(
           child: Column(
-        children: [MyButton(), Text("data"), Text("data")],
+        children: [MyButton(), Text("data"), Text("data"), Text("data")],
       )),
     );
   }
