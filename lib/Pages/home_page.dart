@@ -12,7 +12,10 @@ class MyHome extends StatelessWidget {
         centerTitle: true,
       ),
       drawer: Drawer(backgroundColor: Colors.deepPurple),
-      body: Center(child: MyButton()),
+      body: Center(
+          child: Column(
+        children: [MyButton(), Text("data"), Text("data")],
+      )),
     );
   }
 }
