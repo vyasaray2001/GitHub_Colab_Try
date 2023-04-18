@@ -8,7 +8,7 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Hellloooooo"),
+      body: Center(child: Container(child: Text("Hellloooooo"))),
     );
   }
 }
